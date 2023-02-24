@@ -1,0 +1,50 @@
+{
+  "name": "@the-arc-gmbh/eslint-config-next",
+  "version": "1.0.0-beta.0",
+  "author": "Nico Hülscher <nico.huelscher@thearc.de>",
+  "description": "Next.JS THE ARC configuration for ESLint projects.",
+  "scripts": {
+    "test": "node ./index.js",
+    "prepublish": "npm test"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "default.yml"
+  ],
+  "homepage": "https://www.thearc.de/",
+  "dependencies": {
+    "@next/eslint-plugin-next": "^13.2.1",
+    "@the-arc-gmbh/eslint-config": "^1.0.0-beta.4",
+    "@typescript-eslint/eslint-plugin": "5.53.0",
+    "@typescript-eslint/parser": "5.53.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsdoc": "40.0.0",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-sort-keys-fix": "1.1.2",
+    "prettier": "2.8.4",
+    "prettier-eslint": "15.0.1"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint-config",
+    "eslint"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.34.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THIS-IS-THE-ARC/eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/THIS-IS-THE-ARC/eslint/issues"
+  }
+}
