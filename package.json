@@ -1,6 +1,6 @@
 {
   "name": "@the-arc-gmbh/eslint-config-next",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "author": "Nico Hülscher <nico.huelscher@thearc.de>",
   "description": "Next.JS THE ARC configuration for ESLint projects.",
   "scripts": {
@@ -10,8 +10,7 @@
   "files": [
     "LICENSE",
     "README.md",
-    "index.js",
-    "default.yml"
+    "index.js"
   ],
   "homepage": "https://www.thearc.de/",
   "dependencies": {
